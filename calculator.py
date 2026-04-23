@@ -18,6 +18,12 @@ def suare(a):
     return a**2
 
 
+def area(radius):
+    """Return the area of a circle given its radius."""
+    pi = 3.14
+    return pi * radius * radius
+
+
 def divide(a, b):
     """Return a divided by b. Raises ValueError for zero."""
     if b == 0:
