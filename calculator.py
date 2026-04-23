@@ -13,6 +13,11 @@ def multiply(a, b):
     return a * b
 
 
+def suare(a):
+    """Return a square by a."""
+    return a**2
+
+
 def divide(a, b):
     """Return a divided by b. Raises ValueError for zero."""
     if b == 0:
